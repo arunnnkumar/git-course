@@ -1,0 +1,20 @@
+git --version |=>to check version
+git config |=>configuration settings
+git config --list |=>user.email=******* ,user.name=*********
+git config --global user.name "arunnn" |=>to set user name in global scope
+git config --global user.email "88888888"|=>to set user email in global scope
+
+
+staging area => place where to maintain the files which will handled by remote repo
+commit history => maintain like a version
+
+git init => create a git local repository
+git init -b main<branch name> => create a git local repository with branch 
+git status => show git status
+rm -rf .git => to delete a file
+
+git add <filename> => add file to staging area
+git rm --cached <filename> => remove file from unstage
+
+git log => check the commit status
+
