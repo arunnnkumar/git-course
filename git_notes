@@ -14,14 +14,23 @@ git status => show git status
 rm -rf .git => to delete a file
 
 git add <filename> => add file to staging area
+git add . => add all file in the folder
 git rm --cached <filename> => remove file from unstage
 
 git log => check the commit status
 git commit -m "commit message" =>to commit files added in staging area
 git commit -a -m "commit message" => to commit files with added to staging area
 (check sum will create for every commit, sha1 algorithm,40 characters but it show only 7)
+git rm --cached <filename> => to remove file from commited state
 
 git diff =>show the what are the changes in the files between modify(working file) and staging files
 git diff --staged => show the difference between staging file and commit area
 
 readme.md => md-markdown
+
+git clone <repo_link> =>to copy the data from remote repository
+
+git branch -M <branchname> => create branch and make as main branch
+ssh-keygen -o => by this we can authenticate only one time.
+
+
