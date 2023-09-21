@@ -32,9 +32,21 @@ git clone <repo_link> =>to copy the data from remote repository
 
 
 git branch -M <branchname> => create branch and make as main branch
+git remote -v => show remote path
+
+
+ #tag is version like v6.2.7
+ #annotated tagging
+ #light weight tagging
+git tag => show tags
+ #annotated tagging
+git tag -a v1.0 -m "1st relese" => create annotated tag
+git show <tagname> =>show tag description
+
 echo "text" => to print text in terminal
 echo "text" >> <filename_with_extention> => create a file with text content
 ssh-keygen -o => by this we can authenticate only one time.
+
 
 
 
