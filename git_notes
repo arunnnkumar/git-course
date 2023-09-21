@@ -55,6 +55,10 @@ git branch -v => show local repo branches with date
 git branch -a => show local and remote repo branches 
 git branch -r => show remote repo branches 
 
+git branch -d <branch name> =>delete a branch
+git branch --delete <branch name>
+git switch - =>switch to previous branch
+
 git clone <url> =>clone a remote repo to local
 
 
