@@ -47,7 +47,9 @@ git push origin <tag name> =>create a new tag
 #git branch
 git branch <branch name> => create new branch
 git checkout <branch name> => switch to other branch old method
+git checkout -b <branch name> => create a branch and switch to that
 git switch <branch name> => switch to other branch
+git switch -c <branch name> => create and switch to a branch
 git branch => show local repo branches
 git branch -v => show local repo branches with date
 git branch -a => show local and remote repo branches 
