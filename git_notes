@@ -30,8 +30,11 @@ readme.md => md-markdown
 
 git clone <repo_link> =>to copy the data from remote repository
 
+
 git branch -M <branchname> => create branch and make as main branch
+echo "text" => to print text in terminal
+echo "text" >> <filename_with_extention> => create a file with text content
 ssh-keygen -o => by this we can authenticate only one time.
-jadfsljflasjlfsdlfkjdsl
+
 
 
