@@ -59,6 +59,8 @@ git branch -d <branch name> =>delete a branch
 git branch --delete <branch name>
 git switch - =>switch to previous branch
 
+git log --graph => show a branch relation as graph manner
+
 git clone <url> =>clone a remote repo to local
 
 
